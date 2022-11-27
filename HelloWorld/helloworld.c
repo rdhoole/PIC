@@ -8,7 +8,7 @@ __code uint16_t __at (_CONFIG) __configword = \
 #define LED_PORT PORTCbits.RC0
 #define LED_TRIS TRISCbits.TRISC0
 
-// unclaibrated delay, just waits a number of for-loop iterations
+// uncalibrated delay, just waits a number of for-loop iterations
 void delay(uint16_t iterations)
 {
   uint16_t i;
